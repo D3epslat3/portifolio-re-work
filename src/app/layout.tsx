@@ -19,6 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={`${GeistSans.className} scroll-smooth`}>
+      <head>
+      <link rel="icon" href="/deep_logo.svg" type="image/x-icon">
+      </head>
       <body className="bg-neutral-950 antialiased">
         <Navbar />
         <main className="overflow-hidden">

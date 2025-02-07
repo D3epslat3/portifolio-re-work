@@ -15,7 +15,7 @@ import {
   Moon,
   Atom
 } from 'lucide-react';
-import { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 
 export default function Home() {
   const ref = useRef(null);
@@ -107,19 +107,6 @@ export default function Home() {
       name: "UX/UI Designer", 
       icon: Paintbrush 
     }
-  ];
-  
-  const techStack = [
-    { name: "HTML", icon: "/html.svg" },
-    { name: "CSS", icon: "/css3.svg" },
-    { name: "JavaScript", icon: "/js.svg" },
-    { name: "TypeScript", icon: "/typescript.svg" },
-    { name: "Vite", icon: "/vite.svg" },
-    { name: "Next.js", icon: "/nextjs.svg" },
-    { name: "React", icon: "/react.svg" },
-    { name: "Lua", icon: "/Lua-Logo.svg" },
-    { name: "Löve 2D", icon: "/love.svg" },
-    { name: "Tailwind CSS", icon: "/tailwindcss.svg" },
   ];
 
   return (

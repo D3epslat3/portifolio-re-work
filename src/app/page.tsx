@@ -60,7 +60,7 @@ export default function Home() {
       stack: ["HTML", "CSS", "JavaScript"],
       githubUrl: "https://github.com/D3epslat3/maze",
       hasLiveSite: true,
-      externalUrl: "maze.migueelm.dev"
+      externalUrl: "https://maze.migueelm.dev"
     },
     
     {

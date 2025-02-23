@@ -56,7 +56,7 @@ export default function Home() {
     
     {
       title: "Maze",
-      description: "Plataforma para criação de fichas de RPG",
+      description: "Jogo de labirinto feito em canvas",
       stack: ["HTML", "CSS", "JavaScript"],
       githubUrl: "https://github.com/D3epslat3/maze",
       hasLiveSite: true,

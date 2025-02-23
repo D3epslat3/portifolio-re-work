@@ -144,7 +144,7 @@ export default function Home() {
               >
                 <motion.a
                   href="#work"
-                  className="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg font-medium flex items-center gap-2"
+                  className="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg font-medium flex items-center gap-2 text-white"
                   whileHover={{ scale: 1.05 }}
                 >
                   Ver Projetos
@@ -162,9 +162,9 @@ export default function Home() {
             {/* Image - Hidden on mobile */}
             <div className="hidden md:block flex-1">
               <Image
-                src="/foto_deep_ssBG.png"
-                alt="Deep Foto"
-                className="updown rounded-full border border-white shadow-[0px_0px_40px_rgba(255,255,255,0.1)] shadow-purple-50"
+                src="/deep_logo.svg"
+                alt="Deep Logo"
+                className="updown rounded-full"
                 width={500}
                 height={500}
               />
@@ -259,7 +259,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ delay: index * 0.2 }}
                 viewport={{ once: true }}
-                className="group relative overflow-hidden rounded-2xl bg-neutral-900/50 backdrop-blur-sm p-6 border border-purple-900/30 hover:border-purple-400/30 transition-colors"
+                className="group relative overflow-hidden rounded-2xl bg-neutral-900/50 backdrop-blur-sm p-6 border border-purple-900/30 hover:border-purple-400/30 transition-colors text-white"
               >
                 <div className="space-y-4">
                   {/* Tecnologias */}
@@ -358,7 +358,7 @@ export default function Home() {
           >
             <motion.a
               href="mailto:miguelm@miguelm.dev"
-              className="px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-xl font-medium flex items-center gap-2"
+              className="px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-xl font-medium flex items-center gap-2 text-white"
               whileHover={{ scale: 1.05 }}
             >
               <Mail className="w-5 h-5" />

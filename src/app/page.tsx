@@ -60,7 +60,16 @@ export default function Home() {
       stack: ["HTML", "CSS", "JavaScript"],
       githubUrl: "https://github.com/D3epslat3/maze",
       hasLiveSite: true,
-      externalUrl: "https://maze.migueelm.dev"
+      externalUrl: "https://maze.miguelm.dev"
+    },
+
+        {
+      title: "DeepNotes",
+      description: "Site de notas inteligentes",
+      stack: ["NextJS", "TypeScript", "Tailwindcss"],
+      githubUrl: "https://github.com/D3epslat3/deep-notes",
+      hasLiveSite: true,
+      externalUrl: "https://dnotes.miguelm.dev/"
     },
     
     {

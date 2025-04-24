@@ -46,15 +46,6 @@ export default function Home() {
 
   const projects = [
     {
-      title: "Registro RPG",
-      description: "Plataforma para criação de fichas de RPG",
-      stack: ["HTML", "CSS", "JavaScript"],
-      githubUrl: "https://github.com/D3epslat3/rrpg",
-      hasLiveSite: true,
-      externalUrl: "https://rrpg.miguelm.dev"
-    },
-    
-    {
       title: "Maze",
       description: "Jogo de labirinto feito em canvas",
       stack: ["HTML", "CSS", "JavaScript"],
@@ -70,6 +61,14 @@ export default function Home() {
       githubUrl: "https://github.com/D3epslat3/deep-notes",
       hasLiveSite: true,
       externalUrl: "https://dnotes.miguelm.dev/"
+    },
+
+       {
+      title: "DeepShell",
+      description: "Um Shell moderno e feito totalmente em Lua",
+      stack: ["Lua"],
+      githubUrl: "https://github.com/D3epslat3/DeepShell",
+      externalUrl: "false"
     },
     
     {

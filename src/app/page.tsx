@@ -62,6 +62,15 @@ export default function Home() {
       hasLiveSite: true,
       externalUrl: "https://dnotes.miguelm.dev/"
     },
+    
+        {
+      title: "DeepCalc",
+      description: "Site de calculadora Web",
+      stack: ["NextJS", "TypeScript", "Tailwindcss"],
+      githubUrl: "https://github.com/D3epslat3/calc",
+      hasLiveSite: true,
+      externalUrl: "https://dcalc.miguelm.dev/"
+    },
 
        {
       title: "DeepShell",

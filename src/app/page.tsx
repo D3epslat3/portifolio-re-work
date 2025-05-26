@@ -72,6 +72,15 @@ export default function Home() {
       externalUrl: "https://dcalc.miguelm.dev/"
     },
 
+         {
+      title: "S.O.L.A.R.A Terminal",
+      description: "Site que simula um terminal antigo para exibir a historia de um persunagem de RP",
+      stack: ["NextJS", "TypeScript", "Tailwindcss"],
+      githubUrl: "https://github.com/D3epslat3/pz-lore",
+      hasLiveSite: true,
+      externalUrl: "https://pz.miguelm.dev/"
+    },
+
        {
       title: "DeepShell",
       description: "Um Shell moderno e feito totalmente em Lua",

@@ -47,7 +47,7 @@ export default function Home() {
   const projects = [
     {
       title: "Maze",
-      description: "Jogo de labirinto feito em canvas",
+      description: "Jogo de labirinto feito em canvas.",
       stack: ["HTML", "CSS", "JavaScript"],
       githubUrl: "https://github.com/D3epslat3/maze",
       hasLiveSite: true,
@@ -56,7 +56,7 @@ export default function Home() {
 
         {
       title: "DeepNotes",
-      description: "Site de notas inteligentes",
+      description: "Site de notas inteligentes.",
       stack: ["NextJS", "TypeScript", "Tailwindcss"],
       githubUrl: "https://github.com/D3epslat3/deep-notes",
       hasLiveSite: true,
@@ -74,7 +74,7 @@ export default function Home() {
 
          {
       title: "S.O.L.A.R.A Terminal",
-      description: "Site que simula um terminal antigo para exibir a historia de um persunagem de RP",
+      description: "Site que simula um terminal antigo para exibir a história de um personagem de RP.",
       stack: ["NextJS", "TypeScript", "Tailwindcss"],
       githubUrl: "https://github.com/D3epslat3/pz-lore",
       hasLiveSite: true,
@@ -83,7 +83,7 @@ export default function Home() {
 
        {
       title: "DeepShell",
-      description: "Um Shell moderno e feito totalmente em Lua",
+      description: "Um Shell moderno e feito totalmente em Lua.",
       stack: ["Lua"],
       githubUrl: "https://github.com/D3epslat3/DeepShell",
       externalUrl: "false"
@@ -91,7 +91,7 @@ export default function Home() {
     
     {
       title: "Target",
-      description: "Um jogo de tiro ao alvo feito em Lua",
+      description: "Um jogo de tiro ao alvo feito em Lua.",
       stack: ["Lua", "Lovë 2D"],
       githubUrl: "https://github.com/D3epslat3/Target",
       externalUrl: "false"

@@ -2,7 +2,7 @@
 
 import HeroVisual from "@/components/HeroVisual";
 import Preloader from "@/components/Preloader"; 
-import TerminalEgg from "@/components/TerminalEgg";   // <-- O Terminal Secreto
+import TerminalEgg from "@/components/TerminalEgg"; 
 
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion"; 
 import {
